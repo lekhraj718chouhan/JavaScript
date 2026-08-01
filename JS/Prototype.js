@@ -24,14 +24,14 @@ Array.prototype.heylekhraj = function(){
 }
 
 // heroPower.lekhraj()
-myHeros.lekhraj()
-myHeros.heylekhraj()
+// myHeros.lekhraj()
+// myHeros.heylekhraj()
 // heroPower.heylekhraj()
 
 
 // inheritance
 
-const user = {
+const User = {
     name: "chai",
     email: "chai@googlegmail.com"
 }
@@ -53,5 +53,15 @@ const TASupport = {
 Teacher.__proto__ = User
 
 // modern syntax
-
 Object.setPrototypeOf(TeachingSupport, Teacher)
+
+let anotherUsername = "ChaiAurCode   "
+
+String.prototype.trueLength = function(){
+    console.log(`${this}`);
+    console.log(`True length is: ${this.trim().length}`);
+}
+
+anotherUsername.trueLength()
+"lekhraj".trueLength()
+"shree".trueLength()
