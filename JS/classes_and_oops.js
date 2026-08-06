@@ -20,10 +20,14 @@ function User (username, loginCount, isLoggedIn){
     this.loginCount = loginCount;
     this.isLoggedIn = isLoggedIn;
 
+    this.greeting = function(){
+        console.log(`Welcome ${this.username}`);
+    }
+
     // return this
 }
 
 const userOne = new User("lekhraj", 12, true)
 const userTwo = new User("Lekh", 21, false)
-console.log(userOne);
-console.log(userTwo);
+console.log(userOne.constructor);
+// console.log(userTwo);
