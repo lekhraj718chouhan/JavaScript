@@ -1,6 +1,6 @@
-// let myName = "lekhraj    "
+let myName = "lekhraj    "
 
-// console.log(myName.truelength);
+console.log(myName.truelength);
 
 
 
