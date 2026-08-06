@@ -12,7 +12,7 @@ class User {
     }
 }
 
-const lekhraj = new User("hitesh")
+const lekhraj = new User("lekhraj")
 // console.log(lekhraj.createId())
 
 class Teacher extends User {
